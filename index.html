@@ -10,6 +10,7 @@
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
     <!-- Metadata -->
+    <meta charset="utf8">
     <meta name="title" content="Dubi Stow 🐻🚹 Coding Vtuber 準備中!">
     <meta name="description" content="從遙遠的卡利斯托星球而來，學習這裡的一切事物～ #Gaming #Coding #Learning">
 
@@ -28,9 +29,9 @@
     <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#ededed">
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#ededed">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -75,6 +76,7 @@
         body {
             height: 100%;
             margin: 0;
+            background: #ededed;
         }
 
         .bio-header {
@@ -94,7 +96,7 @@
             text-align: center;
             margin-top: 10px;
             margin-bottom: 10px;
-            color: #FFF;
+            color: #ededed;
             cursor: pointer;
         }
 
@@ -109,9 +111,11 @@
             margin-top: -15vh;
         }
 
-        .bio-col {
-            background-color: rgba(250, 250, 250, 0.8);
-            padding-top: 50px;
+        .bio-col .container {
+            background-color: #fff;
+            padding-top: 35px;
+            margin: 15px;
+            border-radius: 15px;
         }
 
         .social-links {
@@ -139,12 +143,12 @@
 </head>
 
 <body>
-    <div class="row">
-        <div class="col-md-8 d-flex justify-content-start justify-content-sm-center">
-            <img class="avatar align-self-center d-none d-md-block" src="/images/avatar.jpg" />
-            <img class="avatar-sm align-self-center d-none d-sm-block d-md-none" src="/images/avatar.jpg" />
+    <div class="d-flex">
+        <div class="d-flex justify-content-start justify-content-sm-center">
+            <img class="avatar align-self-center d-none d-md-block" src="/images/avatar.png" />
+            <img class="avatar-sm align-self-center d-none d-sm-block d-md-none" src="/images/avatar.png" />
         </div>
-        <div class="col-md-4 bio-col">
+        <div class="bio-col d-flex justify-content-sm-center">
             <div class="container">
                 <span class="bio-header">DUBI STOW</span><br />
                 <span class="bio-header">Coding Vtuber in Taipei</span><br />
